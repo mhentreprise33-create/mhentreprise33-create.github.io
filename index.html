@@ -81,12 +81,10 @@
         <img src="realisation-arbre-avant-apres.jpg" alt="Élagage d'un arbre avant et après">
         <figcaption>Élagage / taille d’arbre — Avant & Après</figcaption>
       </figure>
-
       <figure class="project">
         <img src="realisation-cloture-avant.jpg" alt="Pose de clôture avant travaux">
         <figcaption>Pose de clôture — Avant</figcaption>
       </figure>
-
       <figure class="project">
         <img src="realisation-cloture-apres.jpg" alt="Pose de clôture après travaux">
         <figcaption>Pose de clôture — Après</figcaption>
@@ -104,11 +102,15 @@
       <p>✉️ <a href="mailto:mhentreprise33@gmail.com">mhentreprise33@gmail.com</a></p>
     </div>
 
-    <form class="form" action="mailto:mhentreprise33@gmail.com" method="post" enctype="text/plain">
+    <form class="form" action="https://formsubmit.co/mhentreprise33@gmail.com" method="POST" accept-charset="UTF-8">
+      <input type="hidden" name="_subject" value="Nouvelle demande de devis - MH Entreprise">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://mhentreprise33-create.github.io/#contact">
       <h3>Demander un devis</h3>
       <label>Nom et prénom<input name="Nom" required placeholder="Votre nom"></label>
       <label>Téléphone<input name="Téléphone" required placeholder="Votre numéro"></label>
-      <label>Email<input type="email" name="Email" placeholder="Votre email"></label>
+      <label>Email<input type="email" name="Email" required placeholder="Votre email"></label>
       <label>Prestation
         <select name="Prestation">
           <option>Tonte de pelouse</option>
@@ -119,7 +121,7 @@
           <option>Autre demande</option>
         </select>
       </label>
-      <label>Votre message<textarea name="Message" rows="5" placeholder="Décrivez votre besoin..."></textarea></label>
+      <label>Votre message<textarea name="Message" rows="5" required placeholder="Décrivez votre besoin..."></textarea></label>
       <button class="btn primary full" type="submit">Envoyer ma demande</button>
     </form>
   </section>
