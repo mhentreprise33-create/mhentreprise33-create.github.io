@@ -72,4 +72,14 @@ h1 span{color:#91db9a}
   .real-gallery{grid-template-columns:1fr}
   .project.wide{grid-column:auto}
   .project img{height:auto;max-height:520px}
+.logo 
+  height: 70px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
 }
