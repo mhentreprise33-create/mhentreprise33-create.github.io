@@ -72,17 +72,20 @@ h1 span{color:#91db9a}
   .real-gallery{grid-template-columns:1fr}
   .project.wide{grid-column:auto}
   .project img{height:auto;max-height:520px}
-.logo {
-  width: 90px !important;
-  height: 70px !important;
-  max-width: 90px !important;
-  max-height: 70px !important;
-  object-fit: contain !important;
-  display: block;
-}
+.header .brand img.logo {
+    width: 90px !important;
+    height: 70px !important;
+    max-width: 90px !important;
+    max-height: 70px !important;
+    object-fit: contain !important;
+    position: static !important;
+    transform: none !important;
 }
 
-.brand {
-  display: flex;
-  align-items: center;
+.header .brand {
+    width: auto !important;
+    height: 70px !important;
+    overflow: hidden !important;
+    display: flex !important;
+    align-items: center !important;
 }
